@@ -1,0 +1,121 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 507, 193
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "(IPv6)",IDC_ISIPV6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,10,35,10
+    EDITTEXT        IDC_IPADDR,71,9,89,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT,203,9,45,14,ES_AUTOHSCROLL
+    CONTROL         "(UDP)",IDC_ISUDP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,28,35,10
+    PUSHBUTTON      "서버 접속",IDC_CONNECT,45,26,58,14
+    PUSHBUTTON      "파일 전송",IDC_SENDFILE,111,26,56,14
+    DEFPUSHBUTTON   "메시지 전송",IDC_SENDMSG,175,26,55,14
+    EDITTEXT        IDC_MSG,45,43,203,14,ES_AUTOHSCROLL
+    CONTROL         "빨강",IDC_COLORRED,"Button",BS_AUTORADIOBUTTON,357,11,29,10
+    CONTROL         "초록",IDC_COLORGREEN,"Button",BS_AUTORADIOBUTTON,389,11,29,10
+    CONTROL         "파랑",IDC_COLORBLUE,"Button",BS_AUTORADIOBUTTON,419,11,29,10
+    PUSHBUTTON      "그림 지우기",IDC_ERASEPIC,448,9,50,14
+    LTEXT           "주소:",IDC_STATIC,46,11,22,8
+    LTEXT           "포트 번호:",IDC_STATIC,164,11,37,8
+    LTEXT           "메시지:",IDC_STATIC,12,45,31,8
+    EDITTEXT        IDC_STATUS,11,60,237,126,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    CONTROL         "",IDC_DUMMY,"Static",SS_BLACKFRAME,255,26,245,160
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 500
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
